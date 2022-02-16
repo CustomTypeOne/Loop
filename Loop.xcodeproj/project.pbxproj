@@ -581,6 +581,11 @@
 		E9C58A7F24DB529A00487A17 /* counteraction_effect_falling_glucose.json in Resources */ = {isa = PBXBuildFile; fileRef = E9C58A7A24DB529A00487A17 /* counteraction_effect_falling_glucose.json */; };
 		E9C58A8024DB529A00487A17 /* insulin_effect.json in Resources */ = {isa = PBXBuildFile; fileRef = E9C58A7B24DB529A00487A17 /* insulin_effect.json */; };
 		E9E5E56024D3519700B5DFFE /* far_future_high_bg_forecast_after_6_hours.json in Resources */ = {isa = PBXBuildFile; fileRef = E9E5E55F24D3519700B5DFFE /* far_future_high_bg_forecast_after_6_hours.json */; };
+		FCA6F02827BAA88B003CC11A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FCA6F02727BAA88B003CC11A /* Settings.bundle */; };
+		FCA6F02927BAA88B003CC11A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FCA6F02727BAA88B003CC11A /* Settings.bundle */; };
+		FCA6F02A27BAA88B003CC11A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FCA6F02727BAA88B003CC11A /* Settings.bundle */; };
+		FCA6F02B27BAA88B003CC11A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FCA6F02727BAA88B003CC11A /* Settings.bundle */; };
+		FCA6F02C27BAA88B003CC11A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FCA6F02727BAA88B003CC11A /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1485,6 +1490,7 @@
 		E9C58A7A24DB529A00487A17 /* counteraction_effect_falling_glucose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = counteraction_effect_falling_glucose.json; sourceTree = "<group>"; };
 		E9C58A7B24DB529A00487A17 /* insulin_effect.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = insulin_effect.json; sourceTree = "<group>"; };
 		E9E5E55F24D3519700B5DFFE /* far_future_high_bg_forecast_after_6_hours.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = far_future_high_bg_forecast_after_6_hours.json; sourceTree = "<group>"; };
+		FCA6F02727BAA88B003CC11A /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1733,6 +1739,7 @@
 		43776F831B8022E90074EA36 = {
 			isa = PBXGroup;
 			children = (
+				FCA6F02727BAA88B003CC11A /* Settings.bundle */,
 				C18A491122FCC20B00FDA733 /* Scripts */,
 				4FF4D0FA1E1834BD00846527 /* Common */,
 				43776F8E1B8022E90074EA36 /* Loop */,
@@ -3077,6 +3084,7 @@
 				A966152723EA5A26005D8B29 /* DerivedAssets.xcassets in Resources */,
 				7D70764F1FE06EE1004AC8EA /* InfoPlist.strings in Resources */,
 				7D7076631FE06EE4004AC8EA /* Localizable.strings in Resources */,
+				FCA6F02827BAA88B003CC11A /* Settings.bundle in Resources */,
 				43776F971B8022E90074EA36 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3087,6 +3095,7 @@
 			files = (
 				A966152B23EA5A37005D8B29 /* DerivedAssets.xcassets in Resources */,
 				C1C73F0D1DE3D0270022FC89 /* InfoPlist.strings in Resources */,
+				FCA6F02A27BAA88B003CC11A /* Settings.bundle in Resources */,
 				43A943761B926B7B0051FA24 /* Interface.storyboard in Resources */,
 				A966152A23EA5A37005D8B29 /* DefaultAssets.xcassets in Resources */,
 			);
@@ -3096,6 +3105,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCA6F02B27BAA88B003CC11A /* Settings.bundle in Resources */,
 				7D70765E1FE06EE3004AC8EA /* Localizable.strings in Resources */,
 				43A943901B926B7B0051FA24 /* Assets.xcassets in Resources */,
 				B405E35924D2A75B00DD058D /* DerivedAssets.xcassets in Resources */,
@@ -3204,6 +3214,7 @@
 			files = (
 				B491B09E24D0B600004CBE8F /* DerivedAssets.xcassets in Resources */,
 				4F70C1E41DE8DCA7006380B7 /* MainInterface.storyboard in Resources */,
+				FCA6F02927BAA88B003CC11A /* Settings.bundle in Resources */,
 				B405E35B24D2E05600DD058D /* HUDAssets.xcassets in Resources */,
 				7D7076351FE06EDE004AC8EA /* Localizable.strings in Resources */,
 			);
@@ -3226,6 +3237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCA6F02C27BAA88B003CC11A /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
