@@ -1653,7 +1653,7 @@ extension LoopDataManager {
             let dosingStrategyAutomationEnabled = UserDefaults.standard.bool(forKey: "dosingStrategyAutomationEnabled")
             let dosingStrategyThreshold = UserDefaults.standard.double(forKey: "dosingStrategyThreshold")
             
-            if (dynamicPAFEnabled) {
+            if (dynamicPAFEnabled && (maxPartialApplicationFactorBG > minPartialApplicationFactorBG) && (maxPartialApplicationFactor > minPartialApplicationFactor) && (glucose.quantity > HKQuantity(unit : settings.glucoseUnit ?? .milligramsPerDeciliter, doubleValue: 0.0)) ) {
                 if (glucose.quantity > HKQuantity(unit : settings.glucoseUnit ?? .milligramsPerDeciliter, doubleValue: minPartialApplicationFactorBG) &&
                     glucose.quantity < HKQuantity(unit : settings.glucoseUnit ?? .milligramsPerDeciliter, doubleValue: maxPartialApplicationFactorBG)){
                     dynamicApplicationFactor = ((glucose.quantity.doubleValue(for: settings.glucoseUnit ?? .milligramsPerDeciliter) - minPartialApplicationFactorBG) * ((maxPartialApplicationFactor - minPartialApplicationFactor)/(maxPartialApplicationFactorBG - minPartialApplicationFactorBG)) + minPartialApplicationFactor)
