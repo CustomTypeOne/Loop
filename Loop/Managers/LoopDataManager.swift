@@ -1658,9 +1658,9 @@ extension LoopDataManager {
                     glucose.quantity < HKQuantity(unit : settings.glucoseUnit ?? .milligramsPerDeciliter, doubleValue: maxPartialApplicationFactorBG)){
                     dynamicApplicationFactor = ((glucose.quantity.doubleValue(for: settings.glucoseUnit ?? .milligramsPerDeciliter) - minPartialApplicationFactorBG) * ((maxPartialApplicationFactor - minPartialApplicationFactor)/(maxPartialApplicationFactorBG - minPartialApplicationFactorBG)) + minPartialApplicationFactor)
                 } else if (glucose.quantity >= HKQuantity(unit : settings.glucoseUnit ?? .milligramsPerDeciliter, doubleValue: maxPartialApplicationFactorBG)) {
-                    dynamicApplicationFactor = maxPartialApplicationFactorBG
+                    dynamicApplicationFactor = maxPartialApplicationFactor
                 } else if (glucose.quantity <= HKQuantity(unit : settings.glucoseUnit ?? .milligramsPerDeciliter, doubleValue: minPartialApplicationFactorBG)) {
-                    dynamicApplicationFactor = minPartialApplicationFactorBG
+                    dynamicApplicationFactor = minPartialApplicationFactor
                 }
             }
             
