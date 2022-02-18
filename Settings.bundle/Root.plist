@@ -30,11 +30,11 @@
 			<key>Type</key>
 			<string>PSMultiValueSpecifier</string>
 			<key>Title</key>
-			<string>Min Factor</string>
+			<string>Alternate Application Factor</string>
 			<key>Key</key>
-			<string>minPAF</string>
+			<string>alternatePAF</string>
 			<key>DefaultValue</key>
-			<string>0.15</string>
+			<string>0.4</string>
 			<key>Values</key>
 			<array>
 				<real>0.05</real>
@@ -81,82 +81,6 @@
 				<string>95%</string>
 				<string>100%</string>
 			</array>
-		</dict>
-		<dict>
-			<key>Type</key>
-			<string>PSTextFieldSpecifier</string>
-			<key>Title</key>
-			<string>BG Threshold for Min</string>
-			<key>Key</key>
-			<string>minPAFThreshold</string>
-			<key>KeyboardType</key>
-			<string>NumberPad</string>
-		</dict>
-		<dict>
-			<key>Type</key>
-			<string>PSMultiValueSpecifier</string>
-			<key>Title</key>
-			<string>Max Factor</string>
-			<key>Key</key>
-			<string>maxPAF</string>
-			<key>DefaultValue</key>
-			<string>0.5</string>
-			<key>Values</key>
-			<array>
-				<real>0.05</real>
-				<real>0.1</real>
-				<real>0.15</real>
-				<real>0.2</real>
-				<real>0.25</real>
-				<real>0.3</real>
-				<real>0.35</real>
-				<real>0.4</real>
-				<real>0.45</real>
-				<real>0.5</real>
-				<real>0.55</real>
-				<real>0.6</real>
-				<real>0.65</real>
-				<real>0.7</real>
-				<real>0.75</real>
-				<real>0.8</real>
-				<real>0.85</real>
-				<real>0.9</real>
-				<real>0.95</real>
-				<real>1</real>
-			</array>
-			<key>Titles</key>
-			<array>
-				<string>5%</string>
-				<string>10%</string>
-				<string>15%</string>
-				<string>20%</string>
-				<string>25%</string>
-				<string>30%</string>
-				<string>35%</string>
-				<string>40%</string>
-				<string>45%</string>
-				<string>50%</string>
-				<string>55%</string>
-				<string>60%</string>
-				<string>65%</string>
-				<string>70%</string>
-				<string>75%</string>
-				<string>80%</string>
-				<string>85%</string>
-				<string>90%</string>
-				<string>95%</string>
-				<string>100%</string>
-			</array>
-		</dict>
-		<dict>
-			<key>Type</key>
-			<string>PSTextFieldSpecifier</string>
-			<key>Title</key>
-			<string>BG Threshold for Max</string>
-			<key>Key</key>
-			<string>maxPAFThreshold</string>
-			<key>KeyboardType</key>
-			<string>NumberPad</string>
 		</dict>
 		<dict>
 			<key>Type</key>
